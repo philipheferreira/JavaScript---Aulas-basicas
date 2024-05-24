@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<script type="text/javascript">
+		function eventoChange(valor){
+			alert("Você mudou o valor: " + valor);
+		}	
+
+	</script>
+</head>
+<body>
+
+	<h5>Disparar uma chamada para o código JavaScript a partir de um elemento HTML:</h5>
+
+	<p><strong>onclick:</strong> ao clicar no elemento HTML;</p>
+	<p><strong>onblur:</strong> quando o elemento HTML perde o foco;</p>
+	<p><strong>onchange:</strong> em mudança de valor do elemento HTML.</p>
+
+	<h3>Atividades</h3>
+	<select onchange="eventoChange(this.value)">
+		<option value="games">Games</option>
+		<option value="internet">Internet</option>
+		<option value="musica">Música</option>
+	</select>
+
+
+</body>
+</html>
