@@ -1,0 +1,11 @@
+.botao{
+	background-color: #121212;
+	color: #FFFFFF;
+	border-radius: 15px;
+	transition-duration: 0.8s;
+}
+
+.botao:hover{
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+}
